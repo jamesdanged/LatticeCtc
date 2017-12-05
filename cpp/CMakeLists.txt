@@ -37,18 +37,6 @@ set(SOURCE_FILES
   kernels/viterbi_algo.h
   kernels/viterbi_algo.cpp
   kernels/viterbi_algo.cu
-  kernels_for_testing/add_one.cpp
-  kernels_for_testing/add_one.cu
-  kernels_for_testing/jagged_edit.h
-  kernels_for_testing/jagged_edit.cpp
-  kernels_for_testing/jagged_edit.cu
-  kernels_for_testing/mul_by_two.h
-  kernels_for_testing/mul_by_two.cpp
-  kernels_for_testing/mul_by_two.cu
-  kernels_for_testing/pass_array.h
-  kernels_for_testing/pass_array.cpp
-  kernels_for_testing/pass_array.cu
-  kernels_for_testing/zero_out.cpp
   )
 
 include_directories("/usr/local/lib/python3.5/dist-packages/tensorflow/include")
